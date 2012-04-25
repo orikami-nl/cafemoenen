@@ -1,0 +1,56 @@
+/***  Theme Stuff  ***/
+
+<?=$this->getThemePath()?>
+<? Loader::element('header_required'); ?>
+<? Loader::element('footer_required'); ?>
+
+
+
+/*** Attribute Love ***/
+
+<? 
+	$pageTitle = $c->getAttribute('page_title'); 
+	if(is_string($pageTitle) && strlen($pageTitle) > 0) { echo $pageTitle; }
+	else { echo $c->getCollectionName(); }
+?>
+
+
+
+/*** Includes ***/
+<? $this->inc('inc/header.php'); ?>
+
+
+
+/***  Concrete Area Placeholders  ***/
+
+<? $a = new Area('Header Nav'); $a->display($c); ?>
+<? $a = new Area('Header'); $a->display($c); ?>
+<? $a = new Area('Main'); $a->display($c); ?>
+<? $a = new Area('Sidebar'); $a->display($c); ?>
+<? $a = new Area('Footer'); $a->display($c); ?>
+
+
+
+
+/*** View.php content placeholder: ***/
+
+<?php print $innerContent; ?> // use a full width page type, and replace "main" with this
+
+
+
+/*** Plug in auto-nav ***/
+<? 
+	$bt_main = BlockType::getByHandle('autonav');
+	$bt_main->controller->displayPages = 'top';
+	$bt_main->controller->orderBy = 'display_asc';                    
+	$bt_main->controller->displaySubPages = 'all'; // change to none if you don't want drop downs
+	$bt_main->controller->displaySubPageLevels = 'custom';      
+	$bt_main->controller->displaySubPageLevelsNum = '1';  //this shows one dropdown menu
+	$bt_main->render();
+?>
+
+
+
+/*** Display a scrapbook item ***/
+
+<? $block = Block::getByName('Scrapbook_Name'); $block->display(); ?>
