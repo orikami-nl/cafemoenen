@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btDefunctSocialIcons">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="use_large_icons" type="i">
+			<default value="0"/>
+		</field>	
+		<field name="aim" type="C" size="255">
+		</field>
+		<field name="apple" type="C" size="255">
+		</field>
+		<field name="bebo" type="C" size="255">
+		</field>
+		<field name="blogger" type="C" size="255">
+		</field>
+		<field name="brightkite" type="C" size="255">
+		</field>
+		<field name="cargo" type="C" size="255">
+		</field>
+		<field name="delicious" type="C" size="255">
+		</field>	
+		<field name="designfloat" type="C" size="255">
+		</field>	
+		<field name="designmoo" type="C" size="255">
+		</field>
+		<field name="deviantart" type="C" size="255">
+		</field>
+		<field name="digg" type="C" size="255">
+		</field>
+		<field name="dopplr" type="C" size="255">
+		</field>
+		<field name="dribbble" type="C" size="255">
+		</field>
+		<field name="email" type="C" size="255">
+		</field>
+		<field name="ember" type="C" size="255">
+		</field>
+		<field name="evernote" type="C" size="255">
+		</field>
+		<field name="facebook" type="C" size="255">
+		</field>
+		<field name="flickr" type="C" size="255">
+		</field>	
+		<field name="forrst" type="C" size="255">
+		</field>
+		<field name="friendfeed" type="C" size="255">
+		</field>
+		<field name="gamespot" type="C" size="255">
+		</field>
+		<field name="google" type="C" size="255">
+		</field>
+		<field name="google_voice" type="C" size="255">
+		</field>
+		<field name="google_wave" type="C" size="255">
+		</field>
+		<field name="googletalk" type="C" size="255">
+		</field>
+		<field name="gowalla" type="C" size="255">
+		</field>
+		<field name="grooveshark" type="C" size="255">
+		</field>	
+		<field name="ilike" type="C" size="255">
+		</field>
+		<field name="komodomedia_azure" type="C" size="255">
+		</field>
+		<field name="komodomedia_wood" type="C" size="255">
+		</field>
+		<field name="lastfm" type="C" size="255">
+		</field>
+		<field name="linkedin" type="C" size="255">
+		</field>
+		<field name="mixx" type="C" size="255">
+		</field>
+		<field name="mobileme" type="C" size="255">
+		</field>
+		<field name="mynameise" type="C" size="255">
+		</field>
+		<field name="myspace" type="C" size="255">
+		</field>
+		<field name="netvibes" type="C" size="255">
+		</field>
+		<field name="newsvine" type="C" size="255">
+		</field>
+		<field name="openid" type="C" size="255">
+		</field>
+		<field name="orkut" type="C" size="255">
+		</field>
+		<field name="pandora" type="C" size="255">
+		</field>
+		<field name="paypal" type="C" size="255">
+		</field>
+		<field name="picasa" type="C" size="255">
+		</field>
+		<field name="playstation" type="C" size="255">
+		</field>
+		<field name="plurk" type="C" size="255">
+		</field>
+		<field name="posterous" type="C" size="255">
+		</field>
+		<field name="qik" type="C" size="255">
+		</field>
+		<field name="readernaut" type="C" size="255">
+		</field>
+		<field name="reddit" type="C" size="255">
+		</field>
+		<field name="roboto" type="C" size="255">
+		</field>
+		<field name="rss" type="C" size="255">
+		</field>
+		<field name="sharethis" type="C" size="255">
+		</field>
+		<field name="skype" type="C" size="255">
+		</field>
+		<field name="stumbleupon" type="C" size="255">
+		</field>
+		<field name="technorati" type="C" size="255">
+		</field>
+		<field name="tumblr" type="C" size="255">
+		</field>	
+		<field name="twitter" type="C" size="255">
+		</field>	
+		<field name="viddler" type="C" size="255">
+		</field>	
+		<field name="vimeo" type="C" size="255">
+		</field>	
+		<field name="virb" type="C" size="255">
+		</field>	
+		<field name="windows" type="C" size="255">
+		</field>	
+		<field name="wordpress" type="C" size="255">
+		</field>
+		<field name="xing" type="C" size="255">
+		</field>	
+		<field name="yahoo" type="C" size="255">
+		</field>	
+		<field name="yahoobuzz" type="C" size="255">
+		</field>	
+		<field name="yelp" type="C" size="255">
+		</field>	
+		<field name="youtube" type="C" size="255">
+		</field>
+		<field name="zootool" type="C" size="255">
+		</field>
+	</table>
+</schema>

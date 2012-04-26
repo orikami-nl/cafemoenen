@@ -1,0 +1,50 @@
+/**********************************************************
+ * Block stylesheet
+ *********************************************************/
+
+.block-socialprofiles {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.block-socialprofiles li img {
+	float: right;
+	display: inline;
+	margin: 0 0 0 10px;
+	-moz-opacity: .35;
+	opacity: .35;	
+	filter: alpha(opacity=35);
+
+}
+
+.block-socialprofiles li a {
+	display: block;
+	color: #CCCCCC;
+	font-size: 14px;
+	padding: 8px 20px;
+	text-decoration: none;
+	border-bottom: 1px solid #ececec;
+}
+
+/* 32px Icons */
+.block-socialprofiles.large li a {
+	display: block;
+	color: #CCCCCC;
+	font-size: 16px;
+	padding: 8px 10px;
+	line-height: 28px;
+	text-decoration: none;
+	border-bottom: 1px solid #ececec;
+}
+
+.block-socialprofiles li a:hover {
+	color: #666666;
+	text-decoration: none;
+}
+
+.block-socialprofiles li a:hover img {
+    -moz-opacity: 1.0;
+    opacity: 1.0;
+	filter: alpha(opacity=100);	 
+}
