@@ -360,13 +360,13 @@ footer { display: none; }
 
 	.ua-mobile-ipad #utility { display: none; }
 	
-	.ua-mobile-ipad #logo { position: static; padding: 50px 0 0; } 
+	.ua-mobile-ipad #logo { position: static; } 
 
 	.ua-mobile-ipad #pageHeader #headerShell { height: 100% !important;  background-color: #6c2010; }
 
 	.ua-mobile-ipad #pageHeader #headerShell .container { width: 250px; }
 
-	.ua-mobile-ipad #pageHeader nav { position: static; margin: 30px 0 0 15px; }
+	.ua-mobile-ipad #pageHeader nav { position: static; margin: 0 0 0 15px; padding-top: 40px;}
 	.ua-mobile-ipad #pageHeader nav ul { width: auto; }
 	.ua-mobile-ipad #pageHeader nav li { float: none; }
 	.ua-mobile-ipad #pageHeader nav li:hover ul { display: block; position: static; width: 200px; }
@@ -374,7 +374,7 @@ footer { display: none; }
 
 	.ua-mobile-ipad #sliderShell { display: none; }
 
-.ua-mobile-ipad #mainShell { padding: 40px 0 0 0; margin: 0 0 0 270px; width: auto;  }
+.ua-mobile-ipad #mainShell { padding: 40px 0 0 0; margin: 0 0 0 270px !important; width: auto;  }
 .ua-mobile-ipad #mainShell div { width: auto !important; float: none; }
 
 .ua-mobile-ipad #main { width: auto; padding: 0 15px 0 0; }
@@ -505,7 +505,7 @@ footer { display: none; }
 						
 						.powerSliderPagination { margin: 22px 0 0; text-align: center; height: 10px; }
 		
-		.homepage #mainShell { margin-left: 270px; margin-right: 20px; padding-top: 10px; }
+		.homepage #mainShell { margin-left: 10px; margin-right: 20px; padding-top: 10px; }
 		
 		.ccm-layout-table .ccm-layout-col { width: 95% !important; margin-left: 10px; }
 		
