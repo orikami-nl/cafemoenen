@@ -550,7 +550,7 @@ html, body { }
 
 #headerShell { background-color: #641705; height: 680px !important; }
 
-#pageHeader nav { position: static; padding: 90px 0 0 20px;; }
+#pageHeader nav { position: static; padding: 120px 0 0 10px; }
 	#pageHeader nav ul li { float: none; margin: 0 0 10px; }
 	#pageHeader nav ul li:hover ul { display: block; position: static; }
 	#pageHeader nav ul li ul .indicator { display: none; }
@@ -578,7 +578,9 @@ html, body { }
 
 .sidebar #main { width: 95%; }
 
-.ccm-layout-row.fourColRow .ccm-layout-col { width: 100% !important }
+.ccm-layout-row.fourColRow .ccm-layout-col { width: 100% !important; }
+
+.ccm-layout-col-spacing { padding-left:0px !important; margin-left:0px !important;}
 
 #contentHeader {  width: auto; }
 
