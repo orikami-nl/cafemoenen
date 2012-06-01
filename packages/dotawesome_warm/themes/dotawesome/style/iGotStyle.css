@@ -351,6 +351,7 @@ footer { display: none; }
 
 
 /* iPad Styling */
+/*comment ipad start */
 .ua-mobile-ipad {  }
 
 .ua-mobile-ipad #wrapper { margin: 0 !important; }
@@ -398,7 +399,9 @@ footer { display: none; }
 .ua-mobile-ipad .content-sbBlog-commentcount { display: none; }
 .ua-mobile-ipad #mainShell #content-sbBlog-title { width: 450px !important; }
 
-/* @media screen and (max-device-width: 480px) {
+/*Comment ipad end*/
+
+@media screen and (max-device-width: 480px) {
   
 html, body { width: 480px; }
 .container { width: 475px; }
@@ -433,7 +436,7 @@ footer, #push { display: none; }
 footer { display: none; }
 
 
-}  */
+}
 
 
 @media screen and (max-device-width: 940px) {
@@ -541,7 +544,7 @@ html, body { }
 
 .container { overflow-x: hidden; }
 
-#logo {  }
+#logo { background: url(../img/moenenlogo_mobiel.png) no-repeat; height: 57px; width: 200px;}
 
 #utility { display: none; }
 
