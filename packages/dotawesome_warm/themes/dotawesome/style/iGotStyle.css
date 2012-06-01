@@ -374,7 +374,7 @@ footer { display: none; }
 
 	.ua-mobile-ipad #sliderShell { display: none; }
 
-.ua-mobile-ipad #mainShell { padding: 40px 0 0; margin: 0 0 0 270px; width: auto;  }
+.ua-mobile-ipad #mainShell { padding: 40px 0 0 0; margin: 0 0 0 270px; width: auto;  }
 .ua-mobile-ipad #mainShell div { width: auto !important; float: none; }
 
 .ua-mobile-ipad #main { width: auto; padding: 0 15px 0 0; }
@@ -505,12 +505,13 @@ footer { display: none; }
 						
 						.powerSliderPagination { margin: 22px 0 0; text-align: center; height: 10px; }
 		
-		.homepage #mainShell { margin-left: 20px; margin-right: 20px; padding-top: 105px; }
+		.homepage #mainShell { margin-left: 270px; margin-right: 20px; padding-top: 10px; }
 		
 		.ccm-layout-table .ccm-layout-col { width: 95% !important; margin-left: 10px; }
 		
 		.ccm-layout-row.fourColRow .ccm-layout-col { width: 50% !important }
 		
+		.ccm-layout-col-spacing { padding-left:0px !important; margin-left:0px !important;}
 		.quadCol { width: 45%; }
 		
 		.quadCol:first-child { margin-left: 20px; margin-right: 20px; }
